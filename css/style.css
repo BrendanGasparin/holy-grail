@@ -8,14 +8,28 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-    padding: 10px;
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+header, footer {
+    flex-shrink: 0; /* Prevents the header and footer from shrinking */
     margin-bottom: 10px;
+    padding: 10px;
+}
+
+header {
     border-bottom: 1px solid #ff0000;
 }
 
-.page {
-    min-height: 100dvh;
+main {
+    flex-grow: 1; /* The main section will grow to fill the remaining space */
+}
+
+footer {
+    border-top: 1px solid #ff0000;
 }
 
 /* DEVICE SIZE BREAKPOINTS */
