@@ -21,16 +21,24 @@ header, footer {
 
 header {
     border-bottom: 1px solid #ff0000;
-    margin-bottom: 10px;
 }
 
 main {
+    display: flex;
     flex-grow: 1; /* The main section will grow to fill the remaining space */
+}
+
+.left-column, .right-column {
+    display: none;
+}
+
+.centre-column {
+    width: 100vw;
+    padding: 10px;
 }
 
 footer {
     border-top: 1px solid #ff0000;
-    margin-top: 10px;
 }
 
 /* DEVICE SIZE BREAKPOINTS */
@@ -44,6 +52,19 @@ footer {
 /* Small devices (phones, 576px and up) */
 @media (min-width: 576px) {
     /* CSS rules for small devices */
+    .left-column, .right-column {
+        display: block;
+        flex-grow: 1;
+    }
+    
+    .centre-column {
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: 1000px;
+        max-width: 1200px;
+        border-left: 1px solid red;
+        border-right: 1px solid red;
+    }
 
 }
   
