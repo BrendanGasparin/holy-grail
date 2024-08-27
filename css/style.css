@@ -16,12 +16,12 @@ html {
 
 header, footer {
     flex-shrink: 0; /* Prevents the header and footer from shrinking */
-    margin-bottom: 10px;
     padding: 10px;
 }
 
 header {
     border-bottom: 1px solid #ff0000;
+    margin-bottom: 10px;
 }
 
 main {
@@ -30,6 +30,7 @@ main {
 
 footer {
     border-top: 1px solid #ff0000;
+    margin-top: 10px;
 }
 
 /* DEVICE SIZE BREAKPOINTS */
