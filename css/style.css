@@ -24,14 +24,14 @@ nav {
 /* Small devices (phones, 576px and up) */
 @media (min-width: 576px) {
     /* CSS rules for small devices */
+    h1 {
+        color: red;
+    }
 }
   
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     /* CSS rules for tablets */
-    h1 {
-        color: red;
-    }
 }
   
 /* Large devices (desktops, 992px and up) */
