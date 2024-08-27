@@ -23,6 +23,16 @@ header {
     border-bottom: 1px solid #ff0000;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 45px;
+    margin-right: 10px;
+}
+
 main {
     display: flex;
     flex-grow: 1; /* The main section will grow to fill the remaining space */
