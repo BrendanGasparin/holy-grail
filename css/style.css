@@ -13,3 +13,33 @@ nav {
     margin-bottom: 10px;
     border-bottom: 1px solid #ff0000;
 }
+
+/* DEVICE SIZE BREAKPOINTS */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* CSS rules for phones */
+}
+  
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    /* CSS rules for small devices */
+}
+  
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* CSS rules for tablets */
+}
+  
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* CSS rules for desktops */
+    h1 {
+        color: red;
+    }
+}
+  
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* CSS rules for large desktops */
+}
