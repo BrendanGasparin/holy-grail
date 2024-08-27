@@ -64,7 +64,7 @@ footer {
     .centre-column {
         flex-grow: 0;
         flex-shrink: 0;
-        width: 1000px;
+        width: 56vw;
         max-width: 1200px;
         border-left: 1px solid red;
         border-right: 1px solid red;
