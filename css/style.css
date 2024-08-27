@@ -19,14 +19,15 @@ nav {
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* CSS rules for phones */
-    h1 {
-        color: red;
-    }
+
 }
   
 /* Small devices (phones, 576px and up) */
 @media (min-width: 576px) {
     /* CSS rules for small devices */
+    h1 {
+        color: green;
+    }
 }
   
 /* Medium devices (tablets, 768px and up) */
